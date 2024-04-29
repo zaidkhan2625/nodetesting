@@ -25,7 +25,7 @@ const ProductIdPrice = (req, res) => {
     console.log("no need for result");
 };
 const getdata = (req , res )=>{
-    res.json({ message: "hello", data: data , todaydate:todaydate() }); // Combine "hello" with the JSON data
+    res.json({ message: "hello" }); // Combine "hello" with the JSON data
 };
 
 module.exports = {getquery ,ProductIdPrice,getdata};
